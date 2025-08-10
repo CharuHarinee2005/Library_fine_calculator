@@ -1,0 +1,64 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #a2d2ff, #bde0fe);
+    margin: 0;
+    padding: 0;
+}
+
+/* Card Container */
+.container {
+    max-width: 500px;
+}
+
+/* Heading */
+h2 {
+    font-weight: bold;
+    color: #023047;
+}
+
+/* Form Styling */
+form label {
+    font-weight: 500;
+    color: #333;
+}
+
+form input {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+form input:focus {
+    border-color: #219ebc;
+    box-shadow: 0 0 8px rgba(33, 158, 188, 0.4);
+}
+
+/* Button */
+button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #219ebc;
+    border: none;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #023047;
+}
+
+/* Result Page Styling */
+p {
+    font-size: 16px;
+    color: #444;
+}
+
+.btn-success {
+    background-color: #06d6a0;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #04b383;
+}
